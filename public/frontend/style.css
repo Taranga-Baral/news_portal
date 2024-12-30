@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+:root{
+    --primary:#ff5757;
+    --light_primary: #ff57571a;
+}
+
+.bg_primary{
+    background-color: var(--primary);
+}
+
+.text_primary{
+    color: var(--primary);
+}
+
+.bg-light_primary{
+    background-color: var(--light_primary);
+}
+.container{
+    width: 86%;
+    margin: auto;
+}
+body{
+    font-family: "Anek Devanagari", serif;
+}
+
+.limited-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
